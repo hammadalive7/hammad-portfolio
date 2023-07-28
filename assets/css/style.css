@@ -115,7 +115,7 @@ h6 {
 
 .hero-info h1{
   font-size:3.5rem;
-  font-weight: ;
+  font-weight: bold;
 }
 
 .hero-info p{
@@ -291,7 +291,7 @@ h6 {
     width: 100%;
     opacity: 1;
   }
-  75% 85%{
+  75% 85% {
     opacity: 0;
   }
 }
