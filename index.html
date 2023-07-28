@@ -73,8 +73,17 @@
           <div class="hero-info">
             <h3>WELCOME TO MY PORTFOLIO</h3>
             <h1>I'm Hammad</h1>
-            <div class="text-animate text-center">
+            <div class="text-animate">
+              <!-- Use media query for small screens -->
+              <style>
+                @media (max-width: 576px) {
+                  .text-animate h2 {
+                    display: none; /* Hide the "Mobile" part of the text on small screens */
+                  }
+                }
+              </style>
               <h2 class="mb-4">Mobile App Developer</h2>
+              <h2 class="mb-4 d-sm-none">App Developer</h2> <!-- Show only "App Developer" on small screens -->
             </div>
             <p>I'm a passionate computer science student with expertise in Flutter and
               native Android app development.</p>

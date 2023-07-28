@@ -160,8 +160,8 @@ h6 {
 
 .btn-box{
   display: flex;
-  justify-content: space-between;
-  width: 320px;
+  justify-content: space-evenly;
+  width: 300px;
   margin-top:2rem;
   margin-bottom: 3rem;
 }
@@ -171,7 +171,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 8px;
+  /* gap: 8px; */
 }
 
 .btn-box .d-CV{
@@ -190,7 +190,7 @@ h6 {
   justify-content: space-between;
   width: 220px;
   height: 45px;
-  margin-left: 3rem;
+  margin-left: 2rem;
 
 }
 
@@ -332,7 +332,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #2eafec;
+  background: #ba0b84;
   color: #fff;
 }
 
